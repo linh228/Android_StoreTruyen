@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+    android:background="@drawable/bg_tt">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#32DFD1">
+            <ImageButton
+                android:id="@+id/addnv_cancel"
+                android:layout_width="70dp"
+                android:layout_marginTop="0dp"
+                android:layout_height="70dp"
+                android:background="@null"
+                android:src="@drawable/ic_back"></ImageButton>
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/dancingscript_semibold"
+            android:textColor="#EED31934"
+            android:text="Đăng ký nhân viên mới"
+            android:textSize="50dp"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"></TextView>
+    </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+                    <EditText
+                        android:background="@drawable/cus_edt"
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:layout_width="240dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:hint="Họ Tên"
+                        android:id="@+id/add_nhanvien_HoTen"/>
+                    <EditText
+                        android:background="@drawable/cus_edt"
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:layout_width="240dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:hint="Năm sinh"
+                        android:inputType="date"
+                        android:id="@+id/add_nhanvien_NgaySinh"/>
+                    <EditText
+                        android:background="@drawable/cus_edt"
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:layout_width="240dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:hint="Số điện thoại"
+                        android:inputType="number"
+                        android:id="@+id/add_nhanvien_SDT"/>
+            </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:weightSum="2">
+        <Button
+            android:layout_width="150dp"
+            android:background="@drawable/cus_btn"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Thêm"
+            android:id="@+id/add_nhanvien_S"/>
+        <Button
+            android:layout_width="150dp"
+            android:textColor="@color/white"
+            android:background="@drawable/cus_btn"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Làm mới"
+            android:id="@+id/add_nhanvien_R"/>
+    </LinearLayout>
+</LinearLayout>

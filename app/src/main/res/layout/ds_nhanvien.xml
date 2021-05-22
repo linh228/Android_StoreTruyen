@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_tt">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#32DFD1"
+        android:weightSum="3">
+        <ImageButton
+            android:id="@+id/dsnv_cancel"
+            android:layout_width="70dp"
+            android:layout_marginTop="0dp"
+            android:layout_height="70dp"
+            android:background="@null"
+            android:src="@drawable/ic_back"></ImageButton>
+
+        <ImageButton
+            android:layout_marginLeft="250dp"
+            android:id="@+id/dsnv_add"
+            android:layout_width="70dp"
+            android:layout_marginTop="0dp"
+            android:layout_height="70dp"
+            android:background="@null"
+            android:src="@drawable/ic_add"></ImageButton>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/dancingscript_semibold"
+            android:textColor="#EED31934"
+            android:text="Danh sách nhân viên"
+            android:textSize="50dp"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"></TextView>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/listNhanVien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"/>
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_tt"
+    android:orientation="vertical">
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/dancingscript_semibold"
+        android:textColor="#EED31934"
+        android:layout_marginTop="50dp"
+        android:textSize="50dp"
+        android:text="Quản lý cửa hàng truyện"></TextView>
+    <FrameLayout
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/QL_T"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/iconsach"/>
+            <TextView
+                android:gravity="center"
+                android:background="@drawable/cus_edt1"
+                android:layout_marginLeft="80dp"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/dancingscript_semibold"
+                android:textSize="30dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/black"
+                android:text="Quản lý Truyện"></TextView>
+    </FrameLayout>
+           <FrameLayout
+               android:layout_marginLeft="40dp"
+               android:id="@+id/QL_NV"
+               android:layout_marginTop="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+                   <ImageView
+                       android:background="@drawable/cus_bdimg"
+                       android:layout_width="100dp"
+                       android:layout_height="100dp"
+                       android:src="@drawable/ic_kh"/>
+                   <TextView
+                       android:gravity="center"
+                       android:background="@drawable/cus_img"
+                       android:layout_marginLeft="88dp"
+                       android:layout_width="242dp"
+                       android:layout_height="match_parent"
+                       android:fontFamily="@font/dancingscript_semibold"
+                       android:textSize="30dp"
+                       android:layout_marginTop="30dp"
+                       android:textColor="@color/black"
+                       android:text="Quản lý nhân viên"></TextView>
+           </FrameLayout>
+
+<FrameLayout
+    android:layout_marginLeft="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/QL_TK"
+    android:layout_marginTop="20dp">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_nv"/>
+        <TextView
+            android:gravity="center"
+            android:background="@drawable/cus_img"
+            android:layout_marginLeft="80dp"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/dancingscript_semibold"
+            android:textSize="30dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/black"
+            android:text="Quản lý Tài khoản"/>
+</FrameLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center">
+        <Button
+            android:background="@drawable/cus_btn"
+            android:id="@+id/btn_dangxuat"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:text="Đăng xuất" />
+    </LinearLayout>
+</LinearLayout>
